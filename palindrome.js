@@ -11,7 +11,7 @@ palindrome("input");
 
 function palindrome(input) {
 	input = input.toLowerCase().replace(/[\W_]/g, '');
-	for (let i=0; len = input.length - 1; i < len/2; i++){
+	for (let i=0; len = input.length - 1; i < len/2; i++) {
 	  if(input[i]!== input[len-1]){
 		  return false;
 	  }
