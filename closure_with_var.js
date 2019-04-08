@@ -12,7 +12,7 @@ function buildFunctions() {
     return arr;
 }
 
-var fredefined = buildFunctions();
+var fredefined  = buildFunctions();
 
 fredefined[0](); // 3
 fredefined[1](); // 3
